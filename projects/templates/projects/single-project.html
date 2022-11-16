@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single</title>
+</head>
+<body>
+<p>{{ project.title }}</p>
+<hr>
+{% for tag in tags %}
+    <p>{{ tag.name }}</p>
+{% endfor %}
+<hr>
+</body>
+</html>
